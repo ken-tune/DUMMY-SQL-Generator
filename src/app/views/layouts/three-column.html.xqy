@@ -39,7 +39,6 @@ declare variable $q as xs:string? := vh:get("q");
     <script src="/js/lib/jquery-1.7.1.min.js" type='text/javascript'></script>
     <script src="/js/lib/jquery-ui-1.8.18.min.js" type='text/javascript'></script>
     <script src="/js/three-column.js" type='text/javascript'></script>
-    <script src="/js/highcharts.js" type='text/javascript'></script>
     <script src="/js/app.js" type='text/javascript'></script>
   </head>
   <body>

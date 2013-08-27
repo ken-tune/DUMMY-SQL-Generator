@@ -73,25 +73,12 @@ declare variable $c:SEARCH-OPTIONS :=
     <search-option>unfiltered</search-option>
     <term>
       <term-option>case-insensitive</term-option>
-     </term>
-     <constraint name="list">
-       <range type="xs:string" collation="http://marklogic.com/collation/codepoint" facet="true">
-        <element ns="" name="message"/>
-        <attribute ns="" name="list"/>
-         <facet-option>limit=10</facet-option>
-        <facet-option>frequency-order</facet-option>
-        <facet-option>descending</facet-option>
-      </range>
-     </constraint>
-     <constraint name="author">
-       <range type="xs:string" collation="http://marklogic.com/collation/codepoint" facet="true">
-        <element ns="" name="from"/>
-        <attribute ns="" name="address"/>
+    </term>
+    <constraint name="facet1">
+      <collection>
         <facet-option>limit=10</facet-option>
-        <facet-option>frequency-order</facet-option>
-        <facet-option>descending</facet-option>
-      </range>
-     </constraint>
+      </collection>
+    </constraint>
 
     <return-results>true</return-results>
     <return-query>true</return-query>
@@ -102,10 +89,7 @@ declare variable $c:SEARCH-OPTIONS :=
  :)
 declare variable $c:LABELS :=
   <labels xmlns="http://marklogic.com/xqutils/labels">
-    <label key="list">
-      <value xml:lang="en">Email Lists</value>
-    </label>
-    <label key="author">
-      <value xml:lang="en">Authors</value>
+    <label key="facet1">
+      <value xml:lang="en">Sample Facet</value>
     </label>
   </labels>;

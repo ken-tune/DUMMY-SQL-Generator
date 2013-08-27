@@ -52,10 +52,7 @@ vh:add-value("sidebar",
     facet:facets($response/search:facet, $q, $c:SEARCH-OPTIONS, $c:LABELS)
   }
   </div>
-),
 
-vh:add-value("column3",
-  <div id="charts" xmlns="http://www.w3.org/1999/xhtml"></div>
 ),
 
 let $page := ($response/@start - 1) div $c:DEFAULT-PAGE-LENGTH + 1
@@ -108,20 +105,6 @@ return
         let $doc := fn:doc($result/@uri)/*
         return
           <div class="result">
-            <div class="mail-header">
-              <div>
-                <span class="tag">From:</span><span class="value">{fn:string($doc/*:headers/*:from/@address)}</span>
-              </div>
-              <div>
-                <span class="tag">To:</span><span class="value">{fn:string($doc/*:headers/*:to/@address)}</span>
-              </div>
-              <div>
-                <span class="tag">Date:</span><span class="value">{fn:string($doc/*:headers/*:date)}</span>
-              </div>
-              <div>
-                <span class="tag">Subject:</span><span class="value">{fn:string($doc/*:headers/*:subject)}</span>
-              </div>
-            </div>
           {
             local:transform-snippet($result/search:snippet)
           }
