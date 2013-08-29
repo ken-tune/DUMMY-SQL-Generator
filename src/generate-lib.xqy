@@ -82,13 +82,13 @@ declare function create-table-statement($table as element(table)) as xs:string{
                 ,
                 for $fkey in $table/fields/fkey
                 return
-                $TAB||",CONSTRAINT `"||$fkey||"_ID` FOREIGN KEY (`"||$fkey||"_ID"||"`) REFERENCES `"||$fkey||"` (`"||$fkey||"_ID`)"||$LF
+                $TAB||",CONSTRAINT `"||$table/table-name/text()||"_"||$fkey||"_ID` FOREIGN KEY (`"||$fkey||"_ID"||"`) REFERENCES `"||$fkey||"` (`"||$fkey||"_ID`)"||$LF
               
             )
             
         ),"")
     )
-    ||");"||$LF
+    ||") ENGINE = InnoDB;"||$LF
 };
 
 declare function get-header($table-config as element(root)) as xs:string*{
@@ -156,7 +156,7 @@ declare function parse-field-template($template as xs:string,$field-name as xs:s
             let $file := get-data-file($component)
             let $column-position := get-column-position($component)
             return
-            map:get($random-row-map,$file)[$column-position]
+            fn:replace(map:get($random-row-map,$file)[$column-position],"'","")
         else if($template-type = $RANDOM-TEMPLATE-TYPE) then
             let $pattern := get-random-pattern($component)
             return

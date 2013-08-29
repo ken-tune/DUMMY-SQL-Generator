@@ -56,12 +56,15 @@ declare function create-sort-codes($schema as element(root))
 };
 
 declare private function format-date($date as xs:date) as xs:string{
-    fn:day-from-date($date)||"/"||fn:month-from-date($date)||"/"||fn:year-from-date($date)
+    (: fn:day-from-date($date)||"/"||fn:month-from-date($date)||"/"||fn:year-from-date($date) :)
+    fn:substring(xs:string($date),1,10)||" 00:00:00"
 };
 
 declare private function date-from-string($date-string as xs:string) as xs:date{
+(:
     let $parts := fn:tokenize($date-string,"/")
     let $parts := for $part in xs:int($parts) return if($part > 9) then xs:string($part) else "0"||$part 
     return
-    xs:date(fn:string-join(fn:reverse($parts),"-"))
+    xs:date(fn:string-join(fn:reverse($parts),"-")) :)
+    xs:date(fn:substring($date-string,1,10))
 };

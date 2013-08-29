@@ -5,7 +5,8 @@ declare variable $schema-file := "c:\temp\sytycd.schema.sql";
 declare variable $table-config := 
 <root>
     <schema-name>SYTYCD</schema-name>
-    <table rows="10">
+    <!-- 1000 customers -->
+    <table rows="1000">
         <table-name>CUSTOMER</table-name>
         <pkey>auto</pkey>
         <fields>
@@ -13,19 +14,20 @@ declare variable $table-config :=
             <fkey content="range:1,10">BRANCH</fkey>
             <field content="/first-name.csv[2]">TITLE</field>
             <field content="/first-name.csv[3]">FIRST_NAME</field>
-            <field random="W">INITIAL</field>
+            <field content="random:W">INITIAL</field>
             <field content="/surname.csv[1]">SURNAME</field>
             <field content="/postcodes.csv[10]|random: dddddd">HOME_PHONE</field>
             <field content="random:07ddd dddddd">MOBILE_PHONE</field>
             <field content="/first-name.csv[3]|.|/surname.csv[1]|@|/domain.csv[1]">EMAIL</field>
             <field content="/maiden-name.csv[1]">MOTHERS_MAIDEN_NAME</field>
-            <field content="range:1,28|/|range:1,12|/|range:1943,1970">DATE_OF_BIRTH</field>
+            <field content="range:1943,1991|-|range:1,12|-|range:1,28">DATE_OF_BIRTH</field>
             <field content="/first-name.csv[1]">GENDER</field>       
             <field content="random:WW dd dd dd W">NATIONAL-INSURANCE-NO</field>
             <field content="/occupation.csv[1]">OCCUPATION</field>                 
         </fields>
     </table>
-    <table rows="13">
+    <!-- 12 branches 112 = 1000 + 12 -->
+    <table rows="1012">
         <table-name>ADDRESS</table-name>
         <pkey>auto</pkey>
         <fields>
@@ -35,14 +37,13 @@ declare variable $table-config :=
             <field content="/postcodes.csv[1]| |random:dWW">POSTCODE</field>
         </fields>
     </table>
-    <table rows="3">
-        <table-name>BRANCH</table-name>
+    <table>
+        <table-name>BANK</table-name>
         <pkey>auto</pkey>
-        <fields>
-            <fkey content="counter:100">ADDRESS</fkey>
-            <fkey content="range:1,1">BANK</fkey>
-        </fields>        
-    </table>
+        <enum>
+            <val>National Kensington Bank</val>
+        </enum>
+    </table>    
     <table> 
         <table-name>TRANSACTION-TYPE</table-name>
         <pkey>auto</pkey>
@@ -69,7 +70,17 @@ declare variable $table-config :=
             <val>Savings</val>
         </enum>
     </table>        
-    <table rows="10">
+    <table rows="12">
+        <table-name>BRANCH</table-name>
+        <pkey>auto</pkey>
+        <fields>
+            <fkey content="counter:10">ADDRESS</fkey>
+            <fkey content="range:1,1">BANK</fkey>
+        </fields>        
+    </table>
+    
+    <!-- 1 account per customer -->
+    <table rows="1000">
         <table-name>ACCOUNT</table-name>
         <pkey>auto</pkey>
         <fields>
@@ -105,13 +116,6 @@ declare variable $table-config :=
         </enum>
     </table>
     <table>
-        <table-name>BANK</table-name>
-        <pkey>auto</pkey>
-        <enum>
-            <val>National Kensington Bank</val>
-        </enum>
-    </table>
-    <table>
         <table-name>POLICY-TYPE</table-name>
         <pkey>auto</pkey>
         <enum>
@@ -122,16 +126,18 @@ declare variable $table-config :=
     </table>    
     <table>
         <table-name>POLICY</table-name>
-        <pkey>POLICY-ID</pkey>
+        <pkey>auto</pkey>
         <fields>
             <fkey content="1">POLICY-TYPE</fkey>
+            <field>POLICY-NUMBER</field>
+            <fkey>CUSTOMER</fkey>            
             <field content="function:dateLastYear,DUMMY">START-DATE</field>
             <field content="function:add-one-year,START-DATE">END-DATE</field>
             <field content="range:1,500|.|random:dd">PREMIUM</field>
         </fields>
     </table>  
     <table>
-        <table-name>CAR-POLICY</table-name>
+        <table-name>CAR_POLICY</table-name>
         <pkey>auto</pkey>
         <fields>
             <fkey>POLICY</fkey>
@@ -149,52 +155,58 @@ declare variable $table-config :=
         </enum>
     </table>                
     
-    <!-- Policy type 1 = Car --> 
-    <data rows="10">
+    <!-- Let's say 600 people with car insurance --> 
+    <data rows="600">
         <table-name>POLICY</table-name>
         <pkey content="counter:0">POLICY-ID</pkey>
         <fields>
             <fkey content="1">POLICY-TYPE</fkey>
+            <field content="random:CR WWWdddddddd">POLICY-NUMBER</field>            
             <fkey content="unique-id-from-map:">CUSTOMER</fkey>
             <field content="function:dateLastYear,DUMMY">START-DATE</field>
             <field content="function:add-one-year,START-DATE">END-DATE</field>
             <field content="range:1,500|.|random:dd">PREMIUM</field>
         </fields>
     </data>   
-    <data rows="10">
-        <table-name>CAR-POLICY</table-name>
+    <data rows="600">
+        <table-name>CAR_POLICY</table-name>
         <pkey>auto</pkey>
         <fields>
-            <fkey content="counter:0">POLICY</fkey>
+            <fkey content="counter:0">POLICY</fkey>            
             <field content="/car-make-model.csv[1]">MAKE</field>
             <field content="/car-make-model.csv[2]">MODEL</field>
             <field content="random:WW0d WWW">REGISTRATION</field>            
         </fields>
     </data>         
     <!-- Policy type 2 - home insurance -->
-    <data rows="5">
+    <!-- 300 people -->
+    <data rows="300">
         <table-name>POLICY</table-name>
-        <pkey content="counter:10">POLICY-ID</pkey>
+        <pkey content="counter:600">POLICY-ID</pkey>
         <fields>
             <fkey content="2">POLICY-TYPE</fkey>
+            <field content="random:HM WWWdddddddd">POLICY-NUMBER</field>            
             <fkey content="unique-id-from-map:">CUSTOMER</fkey>            
             <field content="function:dateLastYear,DUMMY">START-DATE</field>
             <field content="function:add-one-year,START-DATE">END-DATE</field>
             <field content="range:1,500|.|random:dd">PREMIUM</field>
         </fields>
     </data>   
-    <data rows="5">
+    <!-- 200 with life insurance -->
+    <data rows="200">
         <table-name>POLICY</table-name>
-        <pkey content="counter:15">POLICY-ID</pkey>
+        <pkey content="counter:900">POLICY-ID</pkey>
         <fields>
             <fkey content="3">POLICY-TYPE</fkey>
+            <field content="random:LF WWWdddddddd">POLICY-NUMBER</field>            
             <fkey content="unique-id-from-map:">CUSTOMER</fkey>            
             <field content="function:dateLastYear,DUMMY">START-DATE</field>
             <field content="function:add-one-year,START-DATE">END-DATE</field>
             <field content="range:1,500|.|random:dd">PREMIUM</field>
         </fields>
     </data>       
-    <table rows="4">
+    <!-- 500 with mortgages -->
+    <table rows="500">
         <table-name>MORTGAGE</table-name>
         <pkey>MORTGAGE-NUMBER</pkey>
         <fields>
