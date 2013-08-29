@@ -141,7 +141,7 @@ Chevrolet,Suburban
 Audi,Q3
 Mercury,Grand Marquis
 Ford,Expedition
-Aston|Martin,Cygnet
+Aston Martin,Cygnet
 Chevrolet,Camaro
 Infiniti,Q45
 Toyota,Highlander
@@ -212,7 +212,7 @@ Vauxhall,Frontera
 Toyota,Mark II
 Honda,Logo
 Daihatsu,Applause
-Alfa|Romeo,Scighera
+Alfa Romeo,Scighera
 Buick,Park Avenue
 Nissan,Pathfinder
 Alpina,B7
@@ -267,7 +267,7 @@ Hyundai,Getz
 Opel,Corsa
 Hyundai,i30
 Suzuki,Swift
-Alfa|Romeo,156
+Alfa Romeo,156
 Ford,Fiesta
 Ford,Galaxy
 Honda,FR-V
@@ -288,7 +288,7 @@ Citroen,C 15
 Hyundai,Scoupe
 Oldsmobile,SS
 Skoda,Superb
-Alfa|Romeo,166
+Alfa Romeo,166
 Mazda,MX-5 Miata
 Chevrolet,Orlando
 Citroen,Xsara
@@ -354,7 +354,7 @@ BMW,535
 Daihatsu,Gran Move
 Daihatsu,Copen
 Lincoln,Navigator
-Alfa|Romeo,Crosswagon
+Alfa Romeo,Crosswagon
 Jeep,Cherokee
 Lotus,Elise
 Renault,Grand Scenic
@@ -458,7 +458,7 @@ MG,TF
 Vauxhall,Monaro
 Bugatti,EB 118
 Peugeot,407
-Aston|Martin,V8 Vantage
+Aston Martin,V8 Vantage
 Tata,Safari
 Fiat,Sedici
 Rolls-Royce,Corniche
@@ -493,11 +493,11 @@ Skoda,Octavia
 Geely,CK
 Buick,Park Avenue
 Kia,Pro-ceed
-Aston|Martin,Cygnet
+Aston Martin,Cygnet
 Rover,600
 Renault,Clio
-Alfa|Romeo,Giulietta
-Land|Rover,LR3
+Alfa Romeo,Giulietta
+Land Rover,LR3
 Audi,Allroad
 Volvo,C30
 Lancia,Musa
@@ -516,7 +516,7 @@ Scion,xD
 Renault,Argos
 Volvo,440
 Saturn,Aura
-Alfa|Romeo,164
+Alfa Romeo,164
 McLaren,F1
 Infiniti,I
 Fiat,Cinquecento
@@ -531,7 +531,7 @@ Mazda,626
 Audi,A4
 Mercedes-Benz,CLK
 Chrysler,Neon
-Aston|Martin,Vantage
+Aston Martin,Vantage
 Ferrari,612
 Dodge,Neon
 Cadillac,Eldorado
@@ -586,7 +586,7 @@ Hyundai,Tiburon
 Mitsubishi,Montero
 Kia,Avella
 Mazda,MX-5 Miata
-Land|Rover,LR4
+Land Rover,LR4
 Hyundai,Genesis
 Chevrolet,Aveo
 Mitsubishi,Eclipse
@@ -628,7 +628,7 @@ De,Tomaso Guara
 Jensen,SV-8
 Dacia,Supernova
 Ford,GT 500
-Alfa|Romeo,8C Competizione
+Alfa Romeo,8C Competizione
 Ford,Escort
 Volkswagen,Caravelle
 Chrysler,Crossfire
@@ -719,7 +719,7 @@ Subaru,Forester
 Lexus,IS
 Pontiac,Aztek
 Holden,Barina
-Land|Rover,Discovery
+Land Rover,Discovery
 Audi,S8
 Kia,Amanti
 Chevrolet,TrailBlazer
@@ -746,7 +746,7 @@ Volkswagen,Sharan
 Zastava,65
 Ford,Lynx
 Daihatsu,Charade
-Alfa|Romeo,GT
+Alfa Romeo,GT
 Ford,Laser
 Citroen,Xsara
 Audi,A4
@@ -804,7 +804,7 @@ Fiat,Siena
 Vauxhall,Signum
 BMW,545
 GMC,Envoy
-Alfa|Romeo,147
+Alfa Romeo,147
 Chevrolet,Corvette
 Ford,Fiesta
 Alpina,B5
@@ -826,12 +826,12 @@ Lexus,ES
 Jensen,SV-8
 Pagani,Zonda
 Hyundai,Tiburon
-Aston|Martin,Vanquish
+Aston Martin,Vanquish
 Ford,F-450
 Citroen,C-Airdream
 Toyota,Avensis
 Volkswagen,Pickup
-Land|Rover,Range Rover
+Land Rover,Range Rover
 Audi,A6
 Chevrolet,Nubira
 Buick,Blackhawk
@@ -842,7 +842,7 @@ Kia,Sedona
 Oldsmobile,Intrigue
 Steyr,G-series
 Dodge,Viper
-Alfa|Romeo,GT
+Alfa Romeo,GT
 Seat,Arosa
 Ferrari,512 TR
 Mercedes-Benz,C
@@ -917,7 +917,7 @@ Jeep,Patriot
 Bentley,Azure
 BMW,735
 Peugeot,504
-Alfa|Romeo,159
+Alfa Romeo,159
 Lotec,Testa de Oro
 air-conditioning,repairer
 Citroen,C 15
@@ -967,7 +967,7 @@ Ford,F-250
 Audi,A2
 Subaru,Outback
 Mercedes-Benz,Viano
-Land|Rover,Freelander
+Land Rover,Freelander
 BMW,116
 Mercury,Tracer
 Oldsmobile,Cutlass
@@ -1007,7 +1007,7 @@ Honda,Life
 Mercury,Tracer
 Seat,Exeo
 Jeep,Grand Cherokee
-Alfa|Romeo,Spider
+Alfa Romeo,Spider
 Honda,Today
 MG,ZR
 Toyota,RAV4
@@ -1103,7 +1103,7 @@ Cadillac,Escalade
 Bentley,Continental Supersports
 Plymouth,Neon
 Pontiac,Bonneville
-Alfa|Romeo,33
+Alfa Romeo,33
 Chevrolet,Avalanche
 Ford,Econovan
 Koenigsegg,CCX
@@ -1112,7 +1112,7 @@ Mercedes-Benz,GL
 Lada,Oka
 Mitsubishi,Lancer
 Daewoo,Joyster
-Alfa|Romeo,33
+Alfa Romeo,33
 Honda,Accord Crosstour
 Mahindra,Commander
 Fiat,Ulysse
@@ -1145,10 +1145,10 @@ Mercury,Cougar
 Caterham,Super 7
 Isuzu,I-350
 GMC,Safari
-Alfa|Romeo,Spider
+Alfa Romeo,Spider
 Chrysler,Concorde
 MCC,ForFour
-Land|Rover,Defender
+Land Rover,Defender
 Chrysler,Pacifica
 Chevrolet,Epica
 Opel,Signum
@@ -1196,7 +1196,7 @@ Ford,Puma
 Mercedes-Benz,C
 Lancia,Musa
 Bentley,Azure
-Land|Rover,Defender
+Land Rover,Defender
 MG,TF
 Morgan,4
 Hyundai,Dynasty
@@ -1255,9 +1255,9 @@ Ford,Mustang
 Isuzu,KB
 Ferrari,458 Italia
 Volkswagen,W12
-Land|Rover,LR3
+Land Rover,LR3
 Fiat,Sedici
-Land|Rover,Discovery
+Land Rover,Discovery
 Panoz,Esperante
 Holden,Captiva
 Volvo,V50
@@ -1298,7 +1298,7 @@ Volkswagen,Jetta
 Daewoo,Lacetti
 Cadillac,Catera
 Chrysler,300
-Alfa|Romeo,Spider
+Alfa Romeo,Spider
 BMW,730
 Mercedes-Benz,GL
 Opel,Omega
@@ -1328,8 +1328,8 @@ BMW,M6
 Acura,CL-X
 Citroen,C8
 Mazda,Washu
-Land|Rover,LR2
-Alfa|Romeo,Spider
+Land Rover,LR2
+Alfa Romeo,Spider
 GMC,Sierra
 Lotus,Elise
 McLaren,F1
@@ -1348,7 +1348,7 @@ Holden,Caprice
 Mercedes-Benz,A
 Mercedes-Benz,V
 Audi,S6
-Alfa|Romeo,155
+Alfa Romeo,155
 Chevrolet,Corvette
 Renault,Zoe
 Mitsubishi,SSS
@@ -1453,7 +1453,7 @@ Nissan,Sunny
 Toyota,Matrix
 Daewoo,Nubira
 Toyota,Tundra
-Alfa|Romeo,8C Competizione
+Alfa Romeo,8C Competizione
 Oldsmobile,SS
 Tata,E
 Ferrari,456M
@@ -1471,7 +1471,7 @@ Chrysler,Viper
 Oldsmobile,Alero
 Infiniti,J30
 Infiniti,G37
-Land|Rover,Discovery
+Land Rover,Discovery
 Lancia,Phedra
 Dodge,Viper
 Dodge,Nitro
@@ -1487,7 +1487,7 @@ Mahindra,Bolero
 Kia,Carens
 Mitsubishi,Shogun
 Nissan,Terrano II
-Alfa|Romeo,GTV
+Alfa Romeo,GTV
 Infiniti,QX4
 Lotus,Exige
 Dodge,Neon
@@ -1549,7 +1549,7 @@ Chrysler,Grand Voyager
 Mercedes-Benz,CL
 Peugeot,207
 Holden,Commodore
-Land|Rover,Freelander
+Land Rover,Freelander
 Hyundai,i10
 Nissan,1400
 Lamborghini,Diablo
@@ -1558,8 +1558,8 @@ Toyota,Mega Cruiser
 Proton,Perdana
 Porsche,Boxster
 Honda,Stream
-Land|Rover,Range Rover Sport Rover
-Aston|Martin,DB7
+Land Rover,Range Rover Sport Rover
+Aston Martin,DB7
 Mahindra,CL
 Mitsubishi,i-MiEV
 Peugeot,408
@@ -1649,7 +1649,7 @@ Peugeot,306
 Infiniti,G20
 Buick,Park Avenue
 Daihatsu,Gran Move
-Land|Rover,Freelander
+Land Rover,Freelander
 Daewoo,Nubira
 Scion,xD
 Daewoo,Kalos
@@ -1659,7 +1659,7 @@ Mercedes-Benz,Version Longue
 Toyota,Sienna
 Toyota,MR2
 Chevrolet,Beretta
-Alfa|Romeo,166
+Alfa Romeo,166
 Cadillac,CTS
 BMW,650
 Cadillac,Catera
@@ -1675,14 +1675,14 @@ BMW,Z4
 Volvo,XC70
 Daewoo,Rezzo
 Chevrolet,Epica
-Alfa|Romeo,164
+Alfa Romeo,164
 Honda,CR-V
 Lada,110
 Pontiac,Grand Prix
 Daihatsu,Applause
 Subaru,Impreza
 TVR,Tamora
-Alfa|Romeo,Brera
+Alfa Romeo,Brera
 Chevrolet,Silverado
 Subaru,G3X
 Ford,Mondeo
@@ -1694,7 +1694,7 @@ Honda,S2000
 Volkswagen,Rabbit
 Chrysler,LHS
 Lamborghini,Diablo
-Alfa|Romeo,166
+Alfa Romeo,166
 Bristol,Blenheim
 Toyota,Venture
 Hummer,H3
@@ -1703,7 +1703,7 @@ Dodge,Ram
 Chevrolet,Aveo
 Mazda,MX-3
 Holden,Monaro
-Alfa|Romeo,GTV
+Alfa Romeo,GTV
 Tata,Indica
 Daihatsu,Mira
 Mercury,Tracer
@@ -1747,7 +1747,7 @@ Chrysler,Voyager
 Volkswagen,Caddy
 Porsche,928
 Ford,Expedition
-Aston|Martin,V12 Vantage
+Aston Martin,V12 Vantage
 Chevrolet,Uplander
 TVR,Type S
 Volkswagen,Passat
@@ -1770,8 +1770,8 @@ BMW,316
 Nissan,Pulsar
 Ford,Falcon
 Daihatsu,Move
-Alfa|Romeo,Spider
-Land|Rover,Freelander
+Alfa Romeo,Spider
+Land Rover,Freelander
 Lexus,GX
 Mitsubishi,Space Wagon
 Hyundai,XG
@@ -1810,7 +1810,7 @@ Ford,Expedition
 Eagle,Summit
 BMW,323
 Honda,Stream
-Alfa|Romeo,159
+Alfa Romeo,159
 Mahindra,Armada
 Hyundai,Dynasty
 BMW,630
@@ -1825,7 +1825,7 @@ Ford,Fairlane
 SsangYong,W Coupe
 Peugeot,907
 Buick,Park Avenue
-Land|Rover,LR3
+Land Rover,LR3
 Mercedes-Benz,S
 Jeep,Grand Cherokee
 Renault,Alpine
@@ -1842,7 +1842,7 @@ Holden,Colorado
 Mazda,MX-5 Miata
 Daewoo,Rezzo
 Fiat,Duna
-Alfa|Romeo,MiTo
+Alfa Romeo,MiTo
 Fiat,Scudo
 Hyundai,Sonata
 Avanti,Studebaker
@@ -2042,7 +2042,7 @@ Chevrolet,Colorado
 Lancia,Phedra
 Peugeot,Expert
 Daihatsu,Fourtrak TDX
-Alfa|Romeo,155
+Alfa Romeo,155
 Suzuki,Alto
 Mercedes-Benz,B
 Toyota,Yaris
@@ -2136,7 +2136,7 @@ Ford,E-250
 Bentley,Turbo
 Kia,Rondo
 Toyota,Hi-Ace
-Alfa|Romeo,Centauri
+Alfa Romeo,Centauri
 Smart,ForTwo
 Dodge,Neon
 Nissan,Lafesta
@@ -2179,7 +2179,7 @@ Hyundai,i30
 BMW,325
 Fiat,Palio II
 Saturn,SC
-Alfa|Romeo,Bella
+Alfa Romeo,Bella
 Daewoo,Lacetti
 BMW,X5
 Saab,9-7X
@@ -2220,7 +2220,7 @@ Suzuki,Cappuccino
 Lexus,GS
 Volvo,V90
 Mitsubishi,Minica
-Alfa|Romeo,MiTo
+Alfa Romeo,MiTo
 Kia,Retona
 Renault,19
 Audi,TT
@@ -2260,12 +2260,12 @@ Ford,Falcon
 BMW,Z9
 Mitsubishi,Space Runner
 Peugeot,206
-Land|Rover,Discovery 3
+Land Rover,Discovery 3
 Toyota,Camry
 Mercedes-Benz,A
 Honda,Vamos
 Citroen,C8
-Land|Rover,LR4
+Land Rover,LR4
 Panoz,AIV
 Suzuki,Forenza
 Renault,Megane
@@ -2288,7 +2288,7 @@ Holden,Barina
 Citroen,AX
 Daihatsu,Trevis
 Mitsubishi,Colt
-Land|Rover,Discovery 3
+Land Rover,Discovery 3
 Renault,Megane
 Nissan,Pathfinder
 Lexus,LX
@@ -2328,8 +2328,8 @@ Toyota,Prius
 Peugeot,4007
 Ford,Contour
 BMW,528
-Alfa|Romeo,GTV
-Alfa|Romeo,164
+Alfa Romeo,GTV
+Alfa Romeo,164
 SsangYong,Musso
 Dodge,Sprinter
 Porsche,911
@@ -2344,7 +2344,7 @@ Infiniti,M
 Kia,Joice
 Ford,Taurus
 Ferrari,F399
-Land|Rover,LR2
+Land Rover,LR2
 Volkswagen,GTI
 Alpina,B7
 Mazda,6
@@ -2414,7 +2414,7 @@ Suzuki,Samurai
 Lexus,LS
 Bentley,Azure
 Opel,Concept M
-Aston|Martin,DB9
+Aston Martin,DB9
 Toyota,Camry
 Lexus,GS
 Marcos,TS
@@ -2442,7 +2442,7 @@ Lexus,LX
 Nissan,Patrol
 GMC,Canyon
 Nissan,Murano
-Aston|Martin,Vanquish
+Aston Martin,Vanquish
 Ford,Falcon
 Toyota,Camry
 Suzuki,Swift
@@ -2511,7 +2511,7 @@ Nissan,370Z
 Chevrolet,Monte Carlo
 Toyota,Highlander
 Fiat,500
-Aston|Martin,DB9
+Aston Martin,DB9
 Audi,A3
 Volkswagen,Caddy
 Cadillac,Seville
@@ -2531,7 +2531,7 @@ Alpina,B7
 Honda,CR-V
 Mitsubishi,FTO
 Bristol,Beaufighter
-Alfa|Romeo,147
+Alfa Romeo,147
 Mercedes-Benz,CLK
 Mitsubishi,Diamante
 Toyota,Avalon
@@ -2547,7 +2547,7 @@ Hyundai,Veracruz
 Hyundai,Accent
 Mercury,Grand Marquis
 Buick,Park Avenue
-Aston|Martin,Project Vantage
+Aston Martin,Project Vantage
 Tata,Indica
 Fiat,Tempra
 Italdesign,Nazca
@@ -2620,7 +2620,7 @@ Toyota,RAV4
 Lexus,LS
 Mitsubishi,Diamante
 AC,Aceca
-Land|Rover,Defender
+Land Rover,Defender
 Toyota,Ipsum
 Proton,Juara
 Volkswagen,Citi
@@ -2647,7 +2647,7 @@ Fiat,Linea
 Chevrolet,Blazer
 Suzuki,C2
 Honda,Avancier
-Alfa|Romeo,Brera
+Alfa Romeo,Brera
 Opel,Zafira
 Buick,Lucerne
 Seat,Toledo
@@ -2728,7 +2728,7 @@ Eagle,Vision
 Hyundai,i30
 Skoda,Octavia
 Jeep,Grand Cherokee
-Alfa|Romeo,GTV
+Alfa Romeo,GTV
 Fiat,Doblo
 Ford,Falcon
 Mercury,Sable
@@ -2740,7 +2740,7 @@ Volvo,850
 Volkswagen,Fusca
 Chrysler,Voyager
 Volkswagen,Fox
-Alfa|Romeo,166
+Alfa Romeo,166
 Volvo,YCC
 Chevrolet,Uplander
 Suzuki,Alto
@@ -2757,7 +2757,7 @@ Renault,25
 Ford,Expedition
 Toyota,Tazz
 BMW,325
-Aston|Martin,Cygnet
+Aston Martin,Cygnet
 Daihatsu,Gran Move
 Peugeot,607
 Renault,Safrane
@@ -2802,7 +2802,7 @@ Hyundai,Tiburon
 Rover,75
 Smart,ForFour
 Honda,Legend
-Alfa|Romeo,Crosswagon
+Alfa Romeo,Crosswagon
 Ford,Crown Victoria
 Daewoo,Kalos
 Peugeot,405
@@ -2810,14 +2810,14 @@ Ford,Windstar
 Alpina,B7
 Bristol,Project Fighter
 Mercedes-Benz,CLC
-Aston|Martin,Virage
+Aston Martin,Virage
 Mitsubishi,i-MiEV
 Lotus,GT 1
 Toyota,Chaser
 Opel,Vectra
 Lotus,Esprit
 Ford,F-250
-Alfa|Romeo,147
+Alfa Romeo,147
 Lancia,Kappa
 Kia,Visto
 GMC,Yukon
@@ -2876,7 +2876,7 @@ Peugeot,Partner
 Maserati,Coupe
 Chevrolet,Astro
 Nissan,Pixo
-Land|Rover,Discovery 3
+Land Rover,Discovery 3
 Lada,Natacha
 Audi,A8
 BMW,X5
@@ -2925,7 +2925,7 @@ Hyundai,Genesis Coupe
 Bugatti,EB 118
 Citroen,Xsara
 Cadillac,SRX
-Alfa|Romeo,166
+Alfa Romeo,166
 Rover,25
 Mahindra,Bolero
 Smart,ForTwo
@@ -2948,7 +2948,7 @@ MCC,Crossblade
 Infiniti,QX56
 Jaguar,XK
 Mahindra,Armada
-Alfa|Romeo,145
+Alfa Romeo,145
 Volvo,S60
 Mercedes-Benz,G
 Honda,CR-Z
@@ -2963,7 +2963,7 @@ Seat,Cordoba
 Volvo,440
 Proton,Gen-2
 Bristol,Blenheim
-Alfa|Romeo,156
+Alfa Romeo,156
 Holden,Barina
 Opel,Corsa
 Citroen,C2
